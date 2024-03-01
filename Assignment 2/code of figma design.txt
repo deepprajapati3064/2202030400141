@@ -1,0 +1,235 @@
+import * as React from "react";
+
+function MyComponent(props) {
+  return (
+    <div className="flex gap-5 justify-between items-start px-5 max-md:flex-wrap">
+      <div className="flex flex-col flex-1 max-md:max-w-full">
+        <div className="max-md:max-w-full">
+          <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+            <div className="flex flex-col w-[33%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col grow justify-center w-full bg-white max-md:mt-10 max-md:max-w-full">
+                <div className="flex gap-5 justify-between items-center px-8 py-4 w-full text-sm tracking-normal leading-6 border-b border-solid bg-zinc-50 border-b-[color:var(--Neutral-300,#333)] text-zinc-800 max-md:flex-wrap max-md:px-5 max-md:max-w-full">
+                  <div className="flex gap-5 justify-between self-stretch py-7">
+                    <div className="grow">Shop</div>
+                    <div>About Us</div>
+                    <div>Journal</div>
+                    <div className="grow">Stores</div>
+                  </div>
+                  <img
+                    loading="lazy"
+                    src="https://cdn.builder.io/api/v1/image/assets/TEMP/44cabe455471ce91b28d731104d5ba5d364a9814017a10ea9379a52e7592e927?"
+                    className="self-stretch my-auto aspect-[4.35] w-[86px]"
+                  />
+                  <div className="flex gap-5 justify-between self-stretch my-auto whitespace-nowrap">
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/d280a4427db51ea7dc49632373d9e26a4a519474fba04c27b9f4b3be96c54744?"
+                      className="my-auto w-3.5 aspect-square"
+                    />
+                    <div className="flex gap-1 justify-between">
+                      <div>EN</div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/8a8a3b6ad1acc8323148ff45210199054e0ccbd521b0b81f7add695ea61164a2?"
+                        className="my-auto w-3.5 aspect-square"
+                      />
+                    </div>
+                    <div className="flex gap-1 justify-between">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/3c8e489c0cd2c05042e332be0354df52b20e78181689d80abaadd21f659d9c54?"
+                        className="my-auto w-3.5 aspect-square"
+                      />
+                      <div>1</div>
+                    </div>
+                    <img
+                      loading="lazy"
+                      src="https://cdn.builder.io/api/v1/image/assets/TEMP/7eb8bd50a526fcc29a45a0339ea28a328e27132b1e8e03352761632183f1187b?"
+                      className="my-auto w-3.5 aspect-square"
+                    />
+                    <div className="flex gap-1 justify-between">
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ac41e316b3d9824969841b437ed5317002dc56d541fd9cce5eec216f45c7794f?"
+                        className="my-auto w-3.5 aspect-square"
+                      />
+                      <div>2</div>
+                    </div>
+                  </div>
+                </div>
+                <div className="flex overflow-hidden relative flex-col justify-center py-5 w-full min-h-[910px] max-md:max-w-full">
+                  <img
+                    loading="lazy"
+                    srcSet="..."
+                    className="object-cover absolute inset-0 size-full"
+                  />
+                  <div className="flex relative flex-col justify-center items-start px-16 py-12 text-sm leading-6 text-white max-md:px-5 max-md:max-w-full">
+                    <div className="mt-56 tracking-normal whitespace-nowrap max-md:mt-10">
+                      Treat Your Body Like Your Face
+                    </div>
+                    <div className="mt-4 text-3xl leading-10 whitespace-nowrap">
+                      Highly Effective Body Care
+                    </div>
+                    <div className="mt-4 text-base leading-7 w-[395px]">
+                      A combination of nature and advanced technology. Vegan,
+                      natural, skin-friendly and rich in effective
+                      biotechnological ingredients.
+                    </div>
+                    <div className="flex gap-2.5 justify-center px-14 py-5 mt-8 mb-44 tracking-normal border border-solid border-[color:var(--Neutral-100,#FFF)] max-md:px-5 max-md:mb-10">
+                      <div className="flex-auto">Discover More</div>
+                      <img
+                        loading="lazy"
+                        src="https://cdn.builder.io/api/v1/image/assets/TEMP/c285ba1ad6708a98df61174e8dc230da42799aeb38f493417384bb05b0981900?"
+                        className="w-6 aspect-square"
+                      />
+                    </div>
+                  </div>
+                  <div className="flex relative gap-3 self-center mt-10 max-w-full w-[158px]">
+                    <div className="flex-1 shrink-0 h-0.5 bg-white" />
+                    <div className="flex-1 shrink-0 h-0.5 bg-white" />
+                    <div className="flex-1 shrink-0 h-0.5 bg-white" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col justify-center mt-24 w-full bg-white max-md:mt-10 max-md:max-w-full">
+                <div className="flex flex-col justify-center pr-10 bg-white max-md:pr-5 max-md:max-w-full">
+                  <img
+                    loading="lazy"
+                    srcSet="..."
+                    className="w-full aspect-[1.96] max-md:max-w-full"
+                  />
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col ml-5 w-[33%] max-md:ml-0 max-md:w-full">
+              <div className="flex flex-col pr-10 pb-12 mt-24 w-full bg-white max-md:mt-10 max-md:max-w-full">
+                <img
+                  loading="lazy"
+                  srcSet="..."
+                  className="w-full aspect-[1.96] max-md:max-w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col px-10 py-12 max-w-full bg-zinc-800 w-[1440px] max-md:px-5">
+          <div className="flex gap-5 justify-between mt-5 w-full max-md:flex-wrap max-md:max-w-full">
+            <div className="flex flex-col self-start">
+              <img
+                loading="lazy"
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/c833eddf7be5c65229e5247b06d28f647b5c7c60ec8ab4fd2922cc1c313ac0d8?"
+                className="aspect-[4.35] w-[86px]"
+              />
+              <div className="mt-6 text-sm tracking-wide uppercase whitespace-nowrap text-stone-300">
+                FOLLOW US
+              </div>
+              <div className="flex gap-4 mt-6">
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/90750ada99bdfbdf793a6ca75bdf60957e59cad02a7e8141b1da295211f176c5?"
+                  className="w-6 aspect-square"
+                />
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/5359216fc5ed8572185d474f4e4453e3aa76574c34995780045f5bcace6a29b5?"
+                  className="w-6 aspect-square"
+                />
+                <img
+                  loading="lazy"
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/b3162046b44ef5d19a7780832d8968df5c69b81cbb0cad8ca6266103bd495fe1?"
+                  className="w-6 aspect-square"
+                />
+              </div>
+            </div>
+            <div className="max-md:max-w-full">
+              <div className="flex gap-5 max-md:flex-col max-md:gap-0 max-md:">
+                <div className="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col grow text-sm tracking-normal leading-6 text-white whitespace-nowrap">
+                    <div className="font-bold tracking-tight">Products</div>
+                    <div className="mt-6">Inner Care</div>
+                    <div className="mt-3.5">Skin Care</div>
+                    <div className="mt-3.5">Scalp Care</div>
+                  </div>
+                </div>
+                <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col grow text-sm tracking-normal leading-6 text-white whitespace-nowrap">
+                    <div className="font-bold tracking-tight">Guides</div>
+                    <div className="mt-6">News</div>
+                    <div className="mt-3.5">Vision</div>
+                    <div className="mt-3.5">Q&A</div>
+                  </div>
+                </div>
+                <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col grow text-sm tracking-normal leading-6 text-white whitespace-nowrap">
+                    <div className="font-bold tracking-tight">Service</div>
+                    <div className="mt-6">About Concierge</div>
+                    <div className="mt-3.5">Online Consultation</div>
+                    <div className="mt-3.5">Market</div>
+                  </div>
+                </div>
+                <div className="flex flex-col ml-5 w-3/12 max-md:ml-0 max-md:w-full">
+                  <div className="flex flex-col text-sm leading-6 text-white whitespace-nowrap">
+                    <div className="font-bold tracking-tight">Contact</div>
+                    <div className="mt-6 tracking-normal">Contact Us</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="flex gap-5 justify-between pr-20 mt-36 mb-6 w-full text-xs tracking-wide text-stone-300 max-md:flex-wrap max-md:pr-5 max-md:mt-10 max-md:max-w-full">
+            <div className="flex-auto">
+              CEIN. 2019 KINS All rights reserved.
+            </div>
+            <div className="flex gap-5 max-md:flex-wrap max-md:max-w-full">
+              <div className="grow whitespace-nowrap">Company Profile</div>
+              <div>Privacy policy</div>
+              <div className="flex-auto">Cancellation policy</div>
+              <div>Terms of service</div>
+              <div className="grow whitespace-nowrap">Refund/Return Policy</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="flex flex-col pr-10 pb-12 mt-24 bg-white basis-0 max-md:mt-10 max-md:max-w-full">
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="w-full aspect-[1.96] max-md:max-w-full"
+        />
+      </div>
+      <img
+        loading="lazy"
+        srcSet="..."
+        className="mt-24 max-w-full aspect-[0.37] w-[1440px] max-md:mt-10"
+      />
+      <img
+        loading="lazy"
+        srcSet="..."
+        className="self-end mt-24 max-w-full aspect-[0.35] w-[1440px] max-md:mt-10"
+      />
+      <div className="flex flex-col justify-center pr-10 mt-40 bg-white basis-0 max-md:mt-10 max-md:max-w-full">
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="w-full aspect-[1.54] max-md:max-w-full"
+        />
+      </div>
+      <div className="flex flex-col justify-center items-start pr-16 mt-40 bg-white max-md:mt-10 max-md:max-w-full">
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="max-w-full aspect-[1.43] w-[1302px]"
+        />
+      </div>
+      <img
+        loading="lazy"
+        srcSet="..."
+        className="mt-40 max-w-full aspect-[0.46] w-[1577px] max-md:mt-10"
+      />
+    </div>
+  );
+}
+
+
